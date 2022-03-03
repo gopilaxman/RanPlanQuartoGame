@@ -9,7 +9,8 @@ namespace RanPlanQuartoGame
     class QuartoBoard
     {
         // Create two dimensional array for Board with 4X4
-        public String[,] board = new String[4, 4]; 
+        public String[,] board = new String[4, 4];
+        // Create two dimensional array for 16 pieces with 4 attributes. 16x4
         public String[,] pieces = new string[16, 4]
         {
                 // 16 Pieces of coins
@@ -109,7 +110,7 @@ namespace RanPlanQuartoGame
                 Console.WriteLine();
                 if (winnerstatus1 == true)
                 {
-                    Console.WriteLine("Congrats Winner! Diagnol / QUARTO !!");
+                    Console.WriteLine("Congrats Winner! Main-Diagonal \\ QUARTO !!");
                     return true;
                 }
 
@@ -125,7 +126,7 @@ namespace RanPlanQuartoGame
             Console.WriteLine();
             if (winnerstatus1 == true)
             {
-                Console.WriteLine("Congrats Winner! Diagonal \\ QUARTO !!");
+                Console.WriteLine("Congrats Winner! Anti-Diagonal / QUARTO !!");
                 return true;
             }
 

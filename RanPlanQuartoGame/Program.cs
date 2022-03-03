@@ -14,7 +14,7 @@ namespace RanplanQuartoGame
 
             // ------------------------------------ Scenario 1 ------------------------------------
             // Feed the data input starting from 1 to 16 based on the Piece Number's property.
-            // Board is 2 dimension 2x2 array. starts from 0 to 3 for the placement of the coins
+            // Board is 2 dimension 4x4 array. starts from 0 to 3 for the placement of the coins
             // Update the data and click run button to see the Quatro validation.
             //--------------------------------------------------------------------------------------
 
