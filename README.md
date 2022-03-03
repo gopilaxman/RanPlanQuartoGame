@@ -5,16 +5,17 @@ Run the code
 
 
 In the main program, You can pass the parameter of pieces on board as like below:\
-Example:\
-|1|3|5|6|\
-|&nbsp; |&nbsp; |&nbsp; |&nbsp; |\
-|&nbsp; |&nbsp; |&nbsp; |&nbsp; |\
-|&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
             myGameBoard.board[0, 0] = "1";
             myGameBoard.board[0, 1] = "3";
             myGameBoard.board[0, 2] = "5";
             myGameBoard.board[0, 3] = "6";
+
+Above sample data illustrate board like below :\
+|1|3|5|6|\
+|&nbsp; |&nbsp; |&nbsp; |&nbsp; |\
+|&nbsp; |&nbsp; |&nbsp; |&nbsp; |\
+|&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 
 Below are the 16 Pieces of coins
